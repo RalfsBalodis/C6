@@ -1,0 +1,7 @@
+D:\C#\C6\Eglite\Eglite\bin\Debug\Eglite.exe.config
+D:\C#\C6\Eglite\Eglite\bin\Debug\Eglite.exe
+D:\C#\C6\Eglite\Eglite\bin\Debug\Eglite.pdb
+D:\C#\C6\Eglite\Eglite\obj\Debug\Eglite.csproj.AssemblyReference.cache
+D:\C#\C6\Eglite\Eglite\obj\Debug\Eglite.csproj.CoreCompileInputs.cache
+D:\C#\C6\Eglite\Eglite\obj\Debug\Eglite.exe
+D:\C#\C6\Eglite\Eglite\obj\Debug\Eglite.pdb
