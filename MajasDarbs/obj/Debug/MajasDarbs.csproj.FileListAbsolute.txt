@@ -1,0 +1,7 @@
+C:\Darbs\C#\C6\MajasDarbs\bin\Debug\MajasDarbs.exe.config
+C:\Darbs\C#\C6\MajasDarbs\bin\Debug\MajasDarbs.exe
+C:\Darbs\C#\C6\MajasDarbs\bin\Debug\MajasDarbs.pdb
+C:\Darbs\C#\C6\MajasDarbs\obj\Debug\MajasDarbs.csproj.AssemblyReference.cache
+C:\Darbs\C#\C6\MajasDarbs\obj\Debug\MajasDarbs.csproj.CoreCompileInputs.cache
+C:\Darbs\C#\C6\MajasDarbs\obj\Debug\MajasDarbs.exe
+C:\Darbs\C#\C6\MajasDarbs\obj\Debug\MajasDarbs.pdb
