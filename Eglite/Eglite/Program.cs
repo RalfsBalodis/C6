@@ -7,7 +7,9 @@ namespace Eglite
         static void Main(string[] args)
         {
             int x = GetInput.GetArraySize();
-            PrintOutput.PrintArray(GetArray.GetArrayTree(x, x));
+            PrintOutput.PrintArray(GetArray.GetTreeArray(x, x));
+
+            Console.ReadLine();
         }
 
     }

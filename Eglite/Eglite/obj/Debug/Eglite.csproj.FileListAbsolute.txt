@@ -5,3 +5,10 @@ D:\C#\C6\Eglite\Eglite\obj\Debug\Eglite.csproj.AssemblyReference.cache
 D:\C#\C6\Eglite\Eglite\obj\Debug\Eglite.csproj.CoreCompileInputs.cache
 D:\C#\C6\Eglite\Eglite\obj\Debug\Eglite.exe
 D:\C#\C6\Eglite\Eglite\obj\Debug\Eglite.pdb
+C:\Darbs\C#\C6\Eglite\Eglite\bin\Debug\Eglite.exe.config
+C:\Darbs\C#\C6\Eglite\Eglite\bin\Debug\Eglite.exe
+C:\Darbs\C#\C6\Eglite\Eglite\bin\Debug\Eglite.pdb
+C:\Darbs\C#\C6\Eglite\Eglite\obj\Debug\Eglite.csproj.AssemblyReference.cache
+C:\Darbs\C#\C6\Eglite\Eglite\obj\Debug\Eglite.csproj.CoreCompileInputs.cache
+C:\Darbs\C#\C6\Eglite\Eglite\obj\Debug\Eglite.exe
+C:\Darbs\C#\C6\Eglite\Eglite\obj\Debug\Eglite.pdb

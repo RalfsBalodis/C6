@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CheckInputData.cs" />
     <Compile Include="GetArray.cs" />
     <Compile Include="GetInput.cs" />
     <Compile Include="PrintOutput.cs" />

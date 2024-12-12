@@ -6,9 +6,12 @@ namespace Eglite
     {
         public static int GetArraySize()
         {
-            int x = 0;
+            Console.WriteLine("Enetr tree size...");
+
+            int x = 0;            
             string input = Console.ReadLine();
             string output = "";
+
             foreach (var c in input)
             {
                 if (char.IsDigit(c))
@@ -16,13 +19,23 @@ namespace Eglite
                     output += c;
                 }
             }
+
             if (output != "")
             {
-                output = output.Substring(0,9);
-                Int32.TryParse(output, out x);
-                if (x > 100)
+                if (output.Length > 9)
                 {
-                    x = 100;
+                    output = output.Substring(0, 9);
+                }
+                Int32.TryParse(output, out x);
+
+                if (x % 2 == 0)
+                {               
+                    x += 1;
+                }
+
+                if (x > 51)
+                {
+                    x = 51;
                 }
             }
             return x;

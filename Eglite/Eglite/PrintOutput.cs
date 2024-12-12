@@ -6,23 +6,41 @@ namespace Eglite
     {
         public static void PrintArray(char[,] tree)
         {
-            Console.Clear();
-            if (!CheckInputData.ChekArraySize(tree.GetLength(0)))
-            { 
-                Console.WriteLine("Input is 0. No tree for you!"); 
-            }
+            int printedX = 0;
 
-            else {
-                for (int x = 0; x < tree.GetLength(0) / 2 + 1; x++)
+            Console.Clear();
+            if (tree.GetLength(0) == 0)
+            {
+                Console.WriteLine("Input is 0. No tree for you!");
+            }
+            else
+            {
+                bool stop = false;
+
+                for (int x = 0; x < tree.GetLength(0); x++)
                 {
                     for (int y = 0; y < tree.GetLength(1); y++)
                     {
-                        if (char.IsDigit(tree[x, y]))
+                        if (tree[x, y] == '_')
                         {
-                            Console.Write(tree[x, y]);
+                            stop = true;
+                            break;
+                        }
+                        else
+                        {
+                            Console.Write(tree[x, y]);                        
                         }
                     }
-                    Console.WriteLine();
+                    if (!stop)
+                    {
+                        Console.WriteLine();
+                        printedX++;                        
+                    }
+                    else
+                    {                        
+                        Console.WriteLine($"\nArrray size: {tree.GetLength(0)} x {tree.GetLength(1)}\nPrinted lines: {printedX}\nPress Enter to close...");
+                        break;
+                    }
                 }
             }
         }
