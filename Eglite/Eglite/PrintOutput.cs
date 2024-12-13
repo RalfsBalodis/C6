@@ -8,7 +8,6 @@ namespace Eglite
         {
             int printedX = 0;
 
-            Console.Clear();
             if (tree.GetLength(0) == 0)
             {
                 Console.WriteLine("Input is 0. No tree for you!");
@@ -28,6 +27,14 @@ namespace Eglite
                         }
                         else
                         {
+                            if (tree[x, y] == '*')
+                            {
+                                Console.ForegroundColor = ConsoleColor.Green;
+                            }
+                            else
+                            {
+                                Console.ForegroundColor = ConsoleColor.White;
+                            }
                             Console.Write(tree[x, y]);
                         }
                     }
@@ -38,7 +45,8 @@ namespace Eglite
                     }
                 }
             }
-            Console.WriteLine($"\nArray size: {tree.GetLength(0)} x {tree.GetLength(1)}\nPrinted lines: {printedX}\nPress Enter to close...");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.WriteLine($"\nArray size: {tree.GetLength(0)} x {tree.GetLength(1)}\nPrinted lines: {printedX}\nPress Enter to try again...");
         }
     }
 }

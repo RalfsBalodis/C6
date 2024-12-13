@@ -16,7 +16,7 @@ namespace Eglite
                 {
                     if (y < mid - offset || y > mid + offset)
                     {
-                        cells[x, y] = '|';
+                        cells[x, y] = '.';
                     }
                     else if (mid - offset >= 0)
                     {

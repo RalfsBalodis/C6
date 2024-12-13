@@ -6,10 +6,16 @@ namespace Eglite
     {
         static void Main(string[] args)
         {
-            int x = GetInput.GetArraySize();
-            PrintOutput.PrintArray(GetArray.GetTreeArray(x, x));
+            while (true)
+            {
+                int x = GetInput.GetArraySize();
 
-            Console.ReadLine();
+                PrintOutput.PrintArray(GetArray.GetTreeArray(x, x));
+
+                Console.ReadLine();
+
+                Console.Clear();
+            }
         }
 
     }

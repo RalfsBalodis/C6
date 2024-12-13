@@ -6,10 +6,10 @@ namespace Eglite
     {
         public static int GetArraySize()
         {
-            Console.WriteLine("Enetr tree size...");
-
-            int x = 0;            
+            Console.WriteLine("Enetr tree size...");           
             string input = Console.ReadLine();
+            Console.Clear();
+            int x = 0;     
             string output = "";
 
             foreach (var c in input)
@@ -19,7 +19,6 @@ namespace Eglite
                     output += c;
                 }
             }
-
             if (output != "")
             {
                 if (output.Length > 9)
