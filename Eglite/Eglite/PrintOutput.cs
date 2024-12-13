@@ -28,21 +28,17 @@ namespace Eglite
                         }
                         else
                         {
-                            Console.Write(tree[x, y]);                        
+                            Console.Write(tree[x, y]);
                         }
                     }
                     if (!stop)
                     {
                         Console.WriteLine();
-                        printedX++;                        
-                    }
-                    else
-                    {                        
-                        Console.WriteLine($"\nArrray size: {tree.GetLength(0)} x {tree.GetLength(1)}\nPrinted lines: {printedX}\nPress Enter to close...");
-                        break;
+                        printedX++;
                     }
                 }
             }
+            Console.WriteLine($"\nArray size: {tree.GetLength(0)} x {tree.GetLength(1)}\nPrinted lines: {printedX}\nPress Enter to close...");
         }
     }
 }
